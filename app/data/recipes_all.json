@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "name": "Ghee Rice",
+      "img": "/images/rice1.jpg"
+    },
+    {
+      "name": "Dhahi Rice",
+      "img": "/images/rice2.jpg"
+    },
+    {
+      "name": "Semia Rice",
+      "img": "/images/rice3.jpg"
+    },
+    {
+      "name": "Fried Rice",
+      "img": "/images/rice4.jpg"
+    },
+    {
+      "name": "Crab with butter",
+      "img": "/images/butter1.jpg"
+    },
+    {
+      "name": "Butter Chicken",
+      "img": "/images/butter2.jpg"
+    },
+    {
+      "name": "Butter Mix Chicken",
+      "img": "/images/butter3.jpg"
+    },
+    {
+      "name": "Butter Mutton",
+      "img": "/images/butter4.jpg"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Rice"
+  },
+  {
+    "id": 2,
+    "name": "Butter"
+  },
+  {
+    "id": 3,
+    "name": "Cheese"
+  },
+  {
+    "id": 4,
+    "name": "Egg"
+  },
+  {
+    "id": 5,
+    "name": "Bread"
+  },
+  {
+    "id": 6,
+    "name": "Fish"
+  },
+  {
+    "id": 7,
+    "name": "Greenleaves"
+  },
+  {
+    "id": 8,
+    "name": "Apple"
+  }
+]

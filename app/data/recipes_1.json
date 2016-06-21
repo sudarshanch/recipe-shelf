@@ -1,0 +1,15 @@
+{
+  "data": [{
+    "name": "Ghee Rice",
+    "img": "/images/rice1.jpg"
+  },{
+    "name": "Dhahi Rice",
+    "img": "/images/rice2.jpg"
+  },{
+    "name": "Semia Rice",
+    "img": "/images/rice3.jpg"
+  },{
+    "name": "Fried Rice",
+    "img": "/images/rice4.jpg"
+  }]
+}

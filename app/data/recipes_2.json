@@ -1,0 +1,15 @@
+{
+  "data": [{
+    "name": "Crab with butter",
+    "img": "/images/butter1.jpg"
+  },{
+    "name": "Butter Chicken",
+    "img": "/images/butter2.jpg"
+  },{
+    "name": "Butter Mix Chicken",
+    "img": "/images/butter3.jpg"
+  },{
+    "name": "Butter Mutton",
+    "img": "/images/butter4.jpg"
+  }]
+}

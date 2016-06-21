@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "name": "Chicken Pakoda",
+      "img": "/images/chicken-pakoda.jpg"
+    },
+    {
+      "name": "Chicken Pyaza",
+      "img": "/images/chicken-pyaza.jpg"
+    },
+    {
+      "name": "Fish Fry",
+      "img": "/images/fishfry.jpeg"
+    },
+    {
+      "name": "Tandoori Chicken",
+      "img": "/images/TandooriChicken.jpg"
+    }
+  ]
+}

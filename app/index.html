@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" ng-app="recipes">
+<head>
+    <meta charset="UTF-8">
+    <title>Cooking Recipe</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script type="application/javascript" src="vendor/angular.js"></script>
+</head>
+<body ng-controller="recipesCtrl">
+    <div class="header-wrap">
+        <h1>Recipes</h1>
+    </div>
+    <div class="container">
+        <header class="topic">
+            <div class="topicheader">
+                    If NO INGREDIENTS are selected then, showing Favourite recipes based on trends!
+            </div>
+        </header>
+        <div class="recipe-content-wrapper">
+            <div class="recipe-ingredient">
+                <h3>Ingrediens</h3>
+                <div class="recipe-ingredient-list">
+                    <div class="listitem" ng-repeat="ingredient in ingredientsList">
+                        <div>
+                            <input type="checkbox"
+                                   class="cbstyle"
+                                   id="item_{{ingredient.id}}"
+                                   ng-model="ingredient.isChecked"
+                                   ng-click="handleIngredientSelection(ingredient)">
+                            <label for="item_{{ingredient.id}}">{{ingredient.name}}</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recipes-content">
+                <div class="noRecipesFound"
+                     ng-show="noRecipesFound"> No Recipes Found For Selected Ingredients</div>
+                <div class="recipetile" ng-repeat="recipe in displayRecipes">
+                    <div class="tilecontent">
+                        <img ng-src="{{recipe.img}}">
+                        <h4>{{recipe.name}}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="application/javascript" src="scripts/recipes.js"></script>
+<script type="application/javascript" src="scripts/recipesService.js"></script>
+</html>
